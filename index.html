@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="title">
+        <h2>
+          about
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+            molestiae?
+          </p>
+        </h2>
+      </div>
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./hero-bcg.jpeg" alt="about picture" />
+        </article>
+        <article class="about">
+          <!-- button container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">history</button>
+            <button class="tab-btn" data-id="vision">Vision</button>
+            <button class="tab-btn" data-id="goals">Goals</button>
+          </div>
+          <!-- about content -->
+          <article class="about-content">
+            <!-- single item -->
+            <div class="content active" id="history">
+              <h4>history</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores tempore quidem odit. Atque molestias officiis dolorum
+                fugiat fugit laborum facere in non, dolores animi consectetur
+                maiores voluptatem accusamus deserunt quod. Itaque consequuntur
+                velit animi asperiores, expedita quibusdam voluptates
+                temporibus. Vero eveniet sint cum ex nulla, pariatur a hic, esse
+                quis iste aspernatur corrupti cumque sequi aperiam magni facilis
+                doloremque, neque velit laborum asperiores. Voluptatum, unde
+                iusto.
+              </p>
+            </div>
+            <!--  end ofsingle item -->
+            <!-- single item -->
+            <div class="content" id="vision">
+              <h4>vision</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deserunt sunt, cumque mollitia vero illum voluptates nesciunt
+                voluptas debitis. Pariatur fugit quos eaque nostrum dolorum.
+                Tempora iure numquam quam? Magnam unde ab, distinctio dolorem
+                labore voluptatibus magni. Vitae quae explicabo totam distinctio
+                libero eius impedit illum iste dolorem debitis! Dolore, error?
+              </p>
+            </div>
+            <!--  end ofsingle item -->
+            <!-- single item -->
+            <div class="content" id="goals">
+              <h4>goals</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Delectus illo repudiandae enim animi cumque fuga nobis ratione
+                eum deserunt temporibus.
+              </p>
+            </div>
+            <!--  end ofsingle item -->
+          </article>
+        </article>
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
